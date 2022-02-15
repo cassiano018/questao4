@@ -1,0 +1,14 @@
+<template>
+
+	<lightning-card>
+		<div class="obPai slds-m-around_medium">
+			<h1>Oportunidades</h1>
+			<template for:each={opt} for:item="oportunidade">
+				<c-oportunidade key={oportunidade.cod} nomeoport={oportunidade.nomeoport} nomeconta={oportunidade.nomeconta} valor={oportunidade.valor}
+					fechamento={oportunidade.fechamento}>
+				</c-oportunidade>
+			</template>
+		</div>
+	</lightning-card>
+
+</template>

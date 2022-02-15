@@ -1,0 +1,11 @@
+h1 {
+    color: rgb(0, 112, 210);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.app {
+    background-color: #fafaf9;
+    height: 100vh;
+    overflow: scroll;
+}
